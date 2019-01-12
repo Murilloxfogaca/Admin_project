@@ -1,0 +1,43 @@
+#header{
+  background-color: blue;
+  height: 8em; 
+}
+#header ul li{
+  display: inline-block;
+  margin: 0 2em;
+}
+
+#header li a{
+  color: white;
+  text-decoration:none;
+  font-size: 1.4em;
+  font-weight: bold;
+}
+
+#header-core{
+  padding: 2.4em 0;
+  text-align: center;
+}
+
+.option p{
+  font-size:2.8em;
+  font-weight: bold;
+}
+
+.option{
+  width: 80%;
+  margin: 0 auto !important;
+}
+.option .col-6{
+  border: 10px blue solid;
+  border-radius: 50px;
+  margin: 0 4%;
+}
+
+.option a{
+  text-decoration: none;
+  color: black;
+}
+h1{
+  margin: 0;
+}

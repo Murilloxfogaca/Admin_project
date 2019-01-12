@@ -1,0 +1,100 @@
+body{margin: 0;}
+
+.gap{
+	margin: 0 1em;
+	flex-direction: row;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.boxado-1{
+	margin: 0 20%;
+	flex-direction: row;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.boxado-3{
+	margin: 0 25%;
+	flex-direction: row;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.boxado-2{
+	margin: 0 10%;
+	flex-direction: row;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+h1, h2, h3, h4, h5, h6, span, p, b{
+	text-align: center;
+}
+div.Banner_Inicial{
+	background-color: red;
+	text-align: center;
+	padding: 10em 0;
+}
+
+div.Banner_Inicial h2{
+	font-size: 5em;
+	font-weight: bold
+}
+
+div.Banner_Inicial h3{
+	font-size: 2em;
+}
+
+.linha{border: 0.2px black solid;
+	min-height: 10em;
+max-height: 60em;
+}
+
+.col-1{
+	width: 8.3%;
+}
+.col-2{
+	width: 16.5%;
+}
+.col-3{
+	width: 25%;
+}
+.col-4{
+	width: 33%;
+}
+.col-5{
+	width: 40%;
+}
+.col-6{
+	width: 50%;
+}
+.col-7{
+	width: 60%;
+}
+.col-9{
+	width: 66%;
+}
+.col-10{
+	width: 83.5%;
+}
+.col-11{
+	width: 91.7%;
+}
+.col-12{
+	width: 100%;
+}
+
+.col-1,.col-2,.col-3,.col-4,.col-5,.col-6,.col-7,.col-8,.col-9,.col-10,.col-11,.col-12{
+	display: inline-flex;
+	vertical-align: middle;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 0 1.5em;
+	cursor: pointer;
+}
+
